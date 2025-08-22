@@ -19,7 +19,7 @@ st.title("💰 Job Salary Predictor")
 st.markdown("Predict the expected salaries based on experience, job title, gender, education level.")
 
 st.sidebar.subheader("Top Importent Features")
-st.sidebar.image(r"E:\Salary_Prediction_Project\feature_importance.png", caption="Top features")
+st.sidebar.image(r"Ml_Resume_Projects/feature_importance.png/fmeature_iportance.png", caption="Top features")
 
 
 #Main form
@@ -110,4 +110,5 @@ st.dataframe(sample_data)
 st.markdown("---")
 st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
+
             """)
