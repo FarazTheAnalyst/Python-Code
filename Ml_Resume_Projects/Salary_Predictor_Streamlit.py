@@ -108,10 +108,11 @@ st.dataframe(sample_data)
 
 #Footer
 st.markdown("---")
-st.markdown("""
-            Data sourced from kaggle: Predictions are estimates based on historical data.
+st.markdown(**Data sourced from Kaggle:** Predictions are estimates based on historical data.
+**API Hosted on:** Hugging Face Spaces
+**Frontend Built with:** Streamlit
+""")
 
-            """)
 
 
 
