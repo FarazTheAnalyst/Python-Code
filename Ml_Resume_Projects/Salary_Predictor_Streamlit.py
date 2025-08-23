@@ -18,7 +18,7 @@ st.title("💰 Job Salary Predictor")
 st.markdown("Predict the expected salaries based on experience, job title, gender, education level.")
 
 st.sidebar.subheader("Top Importent Features")
-st.sidebar.image("Ml_Resume_Projects/feature_importance.png", caption="Top features")
+st.sidebar.image("feature_importance.png", caption="Top features")
 
 
 #Main form
@@ -110,6 +110,7 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
 
 
 
