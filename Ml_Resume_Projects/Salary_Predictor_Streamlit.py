@@ -101,6 +101,8 @@ sample_data = pd.DataFrame({
 
 st.dataframe(sample_data, use_container_width=True)
 
+st.sidebar.image("feature_importance.png")
+
 # Add a test section to verify API connection
 st.sidebar.subheader("API Status")
 if st.sidebar.button("Check API Health"):
@@ -114,7 +116,7 @@ if st.sidebar.button("Check API Health"):
     except:
         st.sidebar.error("❌ Cannot connect to API")
 
-st.sidebar.image("feature_importance.png")
+
 
 # Footer
 st.markdown("---")
@@ -123,4 +125,5 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
 
