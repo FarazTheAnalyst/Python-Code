@@ -12,7 +12,6 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
-st.sidebar.image("feature_importance.png")
 
 # Title and description
 st.title("💰 Job Salary Predictor")
@@ -126,6 +125,7 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
 
 
 
