@@ -45,5 +45,5 @@ def predict_salary(input_data: PredictionInput):
   
 if __name__ == "__main__":
     import uvicorn
+    uvicorm.run(app, host="0.0.0.0", port=7860)
 
-       uvicorm.run(app, host="0.0.0.0", port=7860)
