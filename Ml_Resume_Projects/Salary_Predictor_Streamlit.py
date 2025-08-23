@@ -12,6 +12,8 @@ st.set_page_config(
     initial_sidebar_state="expanded"
 )
 
+st.sidebar.image("feature_importance.png")
+
 # Title and description
 st.title("💰 Job Salary Predictor")
 st.markdown("Predict the expected salaries based on experience, job title, gender, education level.")
@@ -101,7 +103,6 @@ sample_data = pd.DataFrame({
 
 st.dataframe(sample_data, use_container_width=True)
 
-st.sidebar.image("feature_importance.png")
 
 # Add a test section to verify API connection
 st.sidebar.subheader("API Status")
@@ -125,5 +126,6 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
 
 
