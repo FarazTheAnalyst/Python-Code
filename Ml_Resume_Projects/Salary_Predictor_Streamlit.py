@@ -42,7 +42,7 @@ if st.button("Predict Salary"):
         #call FastAPI endpoint
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://farazgill-salary-predictor-fastapi.hf.space/predict",
                 json={
                     "Job_Title": job_title,
                     "Years_of_Experience": experience,
@@ -65,7 +65,7 @@ if st.button("Predict Salary"):
                 
                 for year in years:
                     resp = requests.post(
-                        "http://127.0.0.1:8000/predict",
+                        "https://farazgill-salary-predictor-fastapi.hf.space/predict",
                         json={
                             "Job_Title": job_title,
                             "Years_of_Experience": year,
@@ -112,5 +112,6 @@ st.markdown("""
             Data sourced from kaggle: Predictions are estimates based on historical data.
 
             """)
+
 
 
