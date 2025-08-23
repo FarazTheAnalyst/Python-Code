@@ -18,7 +18,7 @@ st.title("💰 Job Salary Predictor")
 st.markdown("Predict the expected salaries based on experience, job title, gender, education level.")
 
 st.sidebar.subheader("Top Importent Features")
-st.sidebar.image(r"E:\Salary_Prediction_Project\feature_importance.png", caption="Top features")
+st.sidebar.image("feature_importance.png", caption="Top features")
 
 
 #Main form
@@ -39,7 +39,7 @@ if st.button("Predict Salary"):
         #call FastAPI endpoint
         try:
             response = requests.post(
-                "http://127.0.0.1:8000/predict",
+                "https://farazgill-salary-predictor-fastapi.hf.space/predict",
                 json={
                     "Job_Title": job_title,
                     "Years_of_Experience": experience,
@@ -62,7 +62,7 @@ if st.button("Predict Salary"):
                 
                 for year in years:
                     resp = requests.post(
-                        "http://127.0.0.1:8000/predict",
+                        "https://farazgill-salary-predictor-fastapi.hf.space/predict",
                         json={
                             "Job_Title": job_title,
                             "Years_of_Experience": year,
@@ -110,6 +110,7 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
 
 
 
