@@ -13,12 +13,13 @@ st.set_page_config(
 )
 
 
+
 #Title and description
 st.title("💰 Job Salary Predictor")
 st.markdown("Predict the expected salaries based on experience, job title, gender, education level.")
 
 st.sidebar.subheader("Top Importent Features")
-#st.sidebar.image("feature_importance.png", caption="Top features")
+st.sidebar.image("feature_importance.png", caption="Top features")
 
 
 #Main form
@@ -32,6 +33,8 @@ with col2:
     gender = st.selectbox("Gender", ["Female", "Male"])
     education = st.selectbox("Education Level", ["Bachelor's", "Master's", "PhD", "High School"])
 
+#url
+#ngrok_url = "https://d7fcfd3e9ec8.ngrok-free.app/predict"
 
 #Predict button
 if st.button("Predict Salary"):
@@ -39,7 +42,7 @@ if st.button("Predict Salary"):
         #call FastAPI endpoint
         try:
             response = requests.post(
-                "https://farazgill-salary-predictor-fastapi.hf.space/health",
+                "https://farazgill-salary-predictor-fastapi.hf.space/predict",
                 json={
                     "Job_Title": job_title,
                     "Years_of_Experience": experience,
@@ -103,23 +106,8 @@ sample_data = pd.DataFrame({
 
 st.dataframe(sample_data)
 
-# Footer
+#Footer
 st.markdown("---")
 st.markdown("""
-**Data sourced from Kaggle:** Predictions are estimates based on historical data.
-**API Hosted on:** Hugging Face Spaces
-**Frontend Built with:** Streamlit
-""")
-
-
-
-
-
-
-
-
-
-
-
-
-
+            Data sourced from kaggle: Predictions are estimates based on historical data.
+            """)
