@@ -114,6 +114,8 @@ if st.sidebar.button("Check API Health"):
     except:
         st.sidebar.error("❌ Cannot connect to API")
 
+st.sidebar.image("feature_importance.png")
+
 # Footer
 st.markdown("---")
 st.markdown("""
@@ -121,3 +123,4 @@ st.markdown("""
 **API Hosted on:** Hugging Face Spaces
 **Frontend Built with:** Streamlit
 """)
+
