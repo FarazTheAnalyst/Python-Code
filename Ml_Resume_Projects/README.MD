@@ -42,7 +42,7 @@ This project covers the complete ML lifecycle — from data preprocessing and mo
 ## 📂 Project Structure
 ```
 Ml_Resume_Projects/
-│── dataset/                               # Dataset
+│── dataset/                              # Dataset
 │── models/                               # Trained models
 │── Salary_Predictor_Streamlit.py         # Streamlit web app
 │── Salary_Predictor_Train.ipnb           # Data cleaining and training in jupytornotbook   
