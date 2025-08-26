@@ -11,9 +11,6 @@ This project covers the complete ML lifecycle — from data preprocessing and mo
 
 ---
 
-## 📸 Project Screenshot
-![Job Salary Predictor](https://github.com/FarazTheAnalyst/Python-Code/blob/main/Ml_Resume_Projects/streamlit%20fronend.png)
-
 ---
 ## 📌 Project Overview
 - Built a machine learning system to predict salary ranges.  
@@ -61,8 +58,7 @@ Ml_Resume_Projects/
 │── README.md                             # Project documentation
 │── feature_importance.png                # Top 10 important features image
 ```
+---
 
 ## 📸 Project Screenshot
-![Job Salary Predictor](502ae3b2-7ed9-4566-8377-a4c3403b6835.png)
-
----
+![Job Salary Predictor](https://github.com/FarazTheAnalyst/Python-Code/blob/main/Ml_Resume_Projects/streamlit%20fronend.png)
