@@ -1,5 +1,11 @@
 # Salary Prediction Project
 
+---
+
+## 🔗 Links
+- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Python-Code/tree/main/Ml_Resume_Projects)
+- 🌐 [Live Streamlit App](https://python-code-hjtde2j3fqhj29bykfep5s.streamlit.app/)
+
 An end-to-end machine learning solution that predicts salary ranges based on job characteristics, experience level, location, and education.  
 This project covers the complete ML lifecycle — from data preprocessing and model development to API deployment and a user-friendly web interface.
 
@@ -51,10 +57,6 @@ Ml_Resume_Projects/
 │── README.md                             # Project documentation
 ```
 
----
 
-## 🔗 Links
-- 📘 [GitHub Repository](https://github.com/FarazTheAnalyst/Python-Code/tree/main/Ml_Resume_Projects)
-- 🌐 [Live Streamlit App](https://python-code-hjtde2j3fqhj29bykfep5s.streamlit.app/)
 
 ---
