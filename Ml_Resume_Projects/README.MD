@@ -11,6 +11,10 @@ This project covers the complete ML lifecycle — from data preprocessing and mo
 
 ---
 
+## 📸 Project Screenshot
+![Job Salary Predictor](Ml_Resume_Projects/streamlit fronend.png)
+
+---
 ## 📌 Project Overview
 - Built a machine learning system to predict salary ranges.  
 - Implemented data preprocessing, multiple model comparisons, API deployment, and interactive web app.  
