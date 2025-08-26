@@ -55,8 +55,10 @@ Ml_Resume_Projects/
 │── Fastapi_Salary_Predictor/             # FastAPI app files
 │── requirements.txt                      # Dependencies
 │── README.md                             # Project documentation
+│── feature_importance.png                # Top 10 important features image
 ```
 
-
+## 📸 Project Screenshot
+![Job Salary Predictor](502ae3b2-7ed9-4566-8377-a4c3403b6835.png)
 
 ---
